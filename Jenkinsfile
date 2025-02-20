@@ -21,6 +21,7 @@ pipeline {
                 # TODO Complete the command to run pytest
                 sudo /opt/miniconda3/condabin/conda run -n zack_lab6 pytest
 
+                echo 'pytest runned'
                 # echo 'pytest not runned'
                 # exit 1 #comment this line after implementing Jenkinsfile
                 '''
